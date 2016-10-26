@@ -59,6 +59,8 @@ export default class JquerySnowWebPart extends BaseClientSideWebPart<IJquerySnow
         , maxSize: this.properties.maxSize
         , round : this.properties.round
         , shadow : this.properties.shadow
+        , minSpeed : 1
+        , maxSpeed : 3
         , flakeCount : this.properties.newOn
         , flakeColor: this.properties.snowColor
       });
@@ -105,7 +107,7 @@ private getGuid(): string {
                 ,PropertyPaneSlider('newOn', {
                   label: "Quantity",
                   min: 1,
-                  max: 800,
+                  max: 400,
                   step: 5,
                   showValue: true
                 })
