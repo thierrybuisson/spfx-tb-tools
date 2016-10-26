@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "4072738a-1582-4c6f-85dd-41943517e103",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "4072738a-1582-4c6f-85dd-41943517e103",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Snow webpart" },
+    "description": { "default": "jquery.snow description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "jquery.snow"
+      ,"minSize":10
+      ,"maxSize":30
+      ,"snowColor": "#0099FF"
+      ,"round":true
+      ,"shadow":true
+    }
+  }]
+}

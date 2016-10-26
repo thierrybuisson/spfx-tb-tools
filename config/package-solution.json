@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfx-tb-tools-client-side-solution",
+    "id": "2f1c0b73-6c14-446d-a117-fb0daa48367d",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-tb-tools.spapp"
+  }
+}
